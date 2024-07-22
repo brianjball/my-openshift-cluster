@@ -8,5 +8,5 @@ until oc apply -k cluster/; do : ; done
 
 ```sh
 # run gpu pod
-oc apply -k https://github.com/redhat-na-ssa/demo-ai-gitops-catalog/components/app-configs/nvidia-gpu-verification/overlays/one-shot/
+oc apply -k https://github.com/redhat-na-ssa/demo-ai-gitops-catalog/components/app-configs/nvidia-gpu-verification/overlays/toleration/
 ```
